@@ -42,7 +42,7 @@ public class User {
 //		빌려간 사람이 있다면 그사람의 이름 표시 
 //		없다면 대여 가능상태입니다 문구 표시
 		if(isPointOk && isAgeOk && rentAvailable) {
-			System.out.println("대여 가능합니다.");	
+//			System.out.println("대여 가능합니다.");	
 			
 //			책을 사용자에게 대여 처리 => 책을 빌려간 사람이 나다
 			book.rentUser = this;
@@ -54,7 +54,7 @@ public class User {
 		}
 		else {
 			System.out.println("대여불가합니다.");
-			System.out.println(book.rentUser + "가 이미 대여중입니다.");
+//			System.out.println(book.rentUser + "가 이미 대여중입니다.");
 			
 			return false;
 		}
